@@ -1,0 +1,77 @@
+@model eClaims.Core.Entities.Claim
+@{
+    ViewData["Title"] = "Manage Work Order";
+    var woIndex = (int)ViewBag.WorkOrderId;
+    var wo = Model.WorkOrders[woIndex];
+}
+
+<div class="container mt-4">
+    <a asp-action="Index" class="text-decoration-none mb-3 d-inline-block">&larr; Back to Dashboard</a>
+    
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card shadow-sm mb-4">
+                 <div class="card-header bg-light fw-bold">Incident Details</div>
+                 <div class="card-body">
+                     <p><strong>Policy:</strong> @Model.PolicyNumber</p>
+                     <p><strong>Date:</strong> @Model.Incident.Date.ToString("dd MMM yyyy")</p>
+                     <p><strong>Location:</strong> @Model.Incident.Location</p>
+                     <p class="text-muted">@Model.Incident.Description</p>
+                     
+                     <hr />
+                     <h6 class="fw-bold">Supporting Documents</h6>
+                     @if (Model.Documents.Any())
+                     {
+                         <ul class="list-unstyled">
+                             @foreach(var doc in Model.Documents)
+                             {
+                                 <li><a href="@doc.FilePath" target="_blank">@doc.FileName</a> <span class="text-muted small">(@(doc.FileSize/1024) KB)</span></li>
+                             }
+                         </ul>
+                     }
+                     else
+                     {
+                         <p class="text-muted small">No documents uploaded.</p>
+                     }
+                 </div>
+            </div>
+        </div>
+        
+        <div class="col-md-7">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Update Work Order</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="UpdateWorkOrder" method="post">
+                        <input type="hidden" name="claimId" value="@Model.Id" />
+                        <input type="hidden" name="workOrderIndex" value="@woIndex" />
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Current Status</label>
+                            <select name="status" class="form-select">
+                                <!option value="PENDING" @(wo.Status == "PENDING" ? "selected" : "")>Pending Estimate</!option>
+                                <!option value="IN_PROGRESS" @(wo.Status == "IN_PROGRESS" ? "selected" : "")>In Progress</!option>
+                                <!option value="COMPLETED" @(wo.Status == "COMPLETED" ? "selected" : "")>Completed</!option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Estimate Amount ($)</label>
+                            <input type="number" name="estimate" class="form-control" value="@wo.EstimateAmount" step="0.01" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Provider Notes</label>
+                            <textarea name="notes" class="form-control" rows="4">@wo.Notes</textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Update Work Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

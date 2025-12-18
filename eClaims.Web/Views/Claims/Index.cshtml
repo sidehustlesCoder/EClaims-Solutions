@@ -1,0 +1,56 @@
+@model IEnumerable<eClaims.Core.Entities.Claim>
+
+@{
+    ViewData["Title"] = "My Claims";
+}
+
+<h1>My Claims</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Submit New Claim</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Policy Number
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Incident Date
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="fw-bold text-dark">
+                @Html.DisplayFor(modelItem => item.PolicyNumber)
+            </td>
+            <td>
+                @{
+                    var statusClass = item.Status?.ToUpper() switch
+                    {
+                        "SUBMITTED" => "status-submitted",
+                        "APPROVED" => "status-approved",
+                        "REJECTED" => "status-rejected",
+                        _ => "bg-light text-dark"
+                    };
+                }
+                <span class="badge badge-status @statusClass">
+                    @Html.DisplayFor(modelItem => item.Status)
+                </span>
+            </td>
+            <td>
+                @item.Incident.Date.ToString("MMM dd, yyyy")
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

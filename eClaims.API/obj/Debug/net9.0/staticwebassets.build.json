@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vjR3HO00JXMrpmTVBAA09948UpA2P9qGZl9VWuHqUB8=",
+  "Source": "eClaims.API",
+  "BasePath": "_content/eClaims.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

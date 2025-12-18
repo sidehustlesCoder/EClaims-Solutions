@@ -1,0 +1,74 @@
+@model eClaims.Core.Entities.Claim
+
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h1>Submit Claim</h1>
+
+<h4>Claim Details</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Enter Claim Information</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="PolicyNumber" class="form-label fw-bold"></label>
+                                <input asp-for="PolicyNumber" class="form-control" placeholder="e.g. POL-12345678" />
+                                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="form-label fw-bold">Incident Date</label>
+                                <input asp-for="Incident.Date" class="form-control" type="date" />
+                                <span asp-validation-for="Incident.Date" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="form-group mb-3">
+                        <label class="form-label fw-bold">Location</label>
+                        <input asp-for="Incident.Location" class="form-control" placeholder="City, Street, or Intersection" />
+                        <span asp-validation-for="Incident.Location" class="text-danger"></span>
+                    </div>
+
+                     <div class="form-group mb-4">
+                        <label class="form-label fw-bold">Description of Incident</label>
+                        <textarea asp-for="Incident.Description" class="form-control" rows="4" placeholder="Please describe what happened..."></textarea>
+                        <span asp-validation-for="Incident.Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label fw-bold">Supporting Documents (Photos/Reports)</label>
+                        <input type="file" name="documents" class="form-control" multiple accept=".jpg,.jpeg,.png,.pdf" />
+                        <div class="form-text text-muted">Max size: 5MB per file.</div>
+                    </div>
+                    
+                    <input type="hidden" asp-for="Status" value="SUBMITTED" />
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a asp-action="Index" class="btn btn-outline-secondary me-2">Cancel</a>
+                        <input type="submit" value="Submit Claim" class="btn btn-primary px-4" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
