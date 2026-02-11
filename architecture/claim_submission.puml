@@ -1,0 +1,47 @@
+@startuml
+actor User
+participant Browser
+participant "eClaims.Web\n(ClaimsController)" as Web
+participant "File System\n(wwwroot/uploads)" as FS
+participant "Repository\nIRepository<Claim>" as Repo
+participant "Database\n(MongoDB / InMemory)" as DB
+participant "NotificationService\nEmailNotificationService" as Email
+participant "eClaims.API\n(ClaimsController)" as API
+
+User -> Browser: Fill claim form + attach files
+Browser -> Web: POST /Claims/Create (form-data)
+activate Web
+Web -> Web: Validate ModelState, set `UserId`
+alt documents present
+  Web -> FS: Save uploaded files
+  FS --> Web: Return file paths
+end
+Web -> Repo: AddAsync(claim)
+activate Repo
+Repo -> DB: Insert document / _store.TryAdd
+activate DB
+DB --> Repo: Insert OK
+deactivate DB
+Repo --> Web: Return created claim (with Id)
+deactivate Repo
+Web -> Email: SendAsync(admin@ycompany.com, "New Claim Submitted", ...)
+activate Email
+Email --> Web: OK
+deactivate Email
+Web --> Browser: RedirectToAction(Index) (HTTP 302)
+deactivate Web
+
+note over API,DB: Alternative: API clients call REST endpoints
+Browser -> API: POST /api/claims (application/json)
+activate API
+API -> Repo: AddAsync(claim)
+activate Repo
+Repo -> DB: Insert document
+DB --> Repo: OK
+deactivate DB
+Repo --> API: Return created claim
+deactivate Repo
+API --> Browser: 201 Created (Location header)
+deactivate API
+
+@enduml
