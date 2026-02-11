@@ -95,5 +95,47 @@ namespace eClaims.Web.Controllers
             }
             return View(claim);
         }
+
+        // POST: Claims/Approve
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Approve(string id)
+        {
+            var claim = await _claimRepository.GetByIdAsync(id);
+            if (claim == null) return NotFound();
+            claim.Status = "APPROVED";
+            claim.UpdatedAt = DateTime.UtcNow;
+            claim.AuditLog.Add(new AuditLogEntry { Action = "Approved", Date = DateTime.UtcNow, ByUser = User.Identity.Name });
+            await _claimRepository.UpdateAsync(claim);
+            return RedirectToAction(nameof(Index));
+        }
+
+        // POST: Claims/Reject
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Reject(string id)
+        {
+            var claim = await _claimRepository.GetByIdAsync(id);
+            if (claim == null) return NotFound();
+            claim.Status = "REJECTED";
+            claim.UpdatedAt = DateTime.UtcNow;
+            claim.AuditLog.Add(new AuditLogEntry { Action = "Rejected", Date = DateTime.UtcNow, ByUser = User.Identity.Name });
+            await _claimRepository.UpdateAsync(claim);
+            return RedirectToAction(nameof(Index));
+        }
+
+        // POST: Claims/Delete
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var claim = await _claimRepository.GetByIdAsync(id);
+            if (claim == null) return NotFound();
+            await _claimRepository.DeleteAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

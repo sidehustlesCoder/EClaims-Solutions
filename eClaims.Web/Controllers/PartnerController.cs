@@ -68,9 +68,14 @@ namespace eClaims.Web.Controllers
             if (workOrderIndex < 0 || workOrderIndex >= claim.WorkOrders.Count) return BadRequest();
 
             // Update safety check: ensure this WO belongs to current user
-            // skipping for MVP speed, reliant on GET check
-            
+            var users = await _userRepository.GetAllAsync();
+            var currentUser = users.FirstOrDefault(u => u.Email == User.Identity.Name);
+
             var wo = claim.WorkOrders[workOrderIndex];
+            if (currentUser == null || wo.ProviderId != currentUser.Id)
+            {
+                return Forbid();
+            }
             wo.EstimateAmount = estimate;
             wo.Status = status;
             wo.Notes = notes;

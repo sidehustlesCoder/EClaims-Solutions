@@ -131,11 +131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
+      "projectUniqueName": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
       "projectName": "eClaims.Core",
-      "projectPath": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
+      "projectPath": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
       "packagesPath": "C:\\Users\\jaideep2043\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.Core\\obj\\",
+      "outputPath": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

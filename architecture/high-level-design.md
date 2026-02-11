@@ -84,6 +84,10 @@ Each portal (Customer, Partner, Internal) can be a separate Area within a single
 *   **Controller**: Handles UI logic and View returning.
 *   **Service Agent**: Calls the backend APIs (separation of concerns).
 
+### Sequence Diagrams
+
+A sequence diagram for the primary Claim submission flow has been added: architecture/sequence/claim_submission.puml
+
 ### B. MongoDB Data Model
 Leverage the schema-less nature for **Claims**.
 *   A "Claim" document can embed "Estimates" and "Notes" directly, avoiding complex joins.

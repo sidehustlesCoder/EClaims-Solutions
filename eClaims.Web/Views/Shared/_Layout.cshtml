@@ -29,9 +29,22 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Claims" asp-action="Index">My Claims</a>
                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Reports</a>
-                            </li>
+
+                            @* Partner-specific link *@
+                            @if (User.IsInRole("Partner"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Partner" asp-action="Index">Partner</a>
+                                </li>
+                            }
+
+                            @* Admin-specific link *@
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Reports</a>
+                                </li>
+                            }
                         }
 
                         <li class="nav-item">

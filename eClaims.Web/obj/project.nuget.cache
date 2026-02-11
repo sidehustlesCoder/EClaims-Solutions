@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6VeyF30PZM=",
+  "dgSpecHash": "+T5bk7UT5sc=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.Web\\eClaims.Web.csproj",
+  "projectFilePath": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.Web\\eClaims.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaideep2043\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\jaideep2043\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",

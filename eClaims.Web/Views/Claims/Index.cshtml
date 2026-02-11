@@ -21,6 +21,10 @@
             <th>
                 Incident Date
             </th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Admin</th>
+            }
             <th></th>
         </tr>
     </thead>
@@ -49,6 +53,31 @@
             </td>
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View Details</a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="btn-group ms-2" role="group">
+                        @* Approve *@
+                        <form asp-action="Approve" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-success" @(item.Status == "APPROVED" ? "disabled" : "")>Approve</button>
+                        </form>
+
+                        @* Reject *@
+                        <form asp-action="Reject" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-warning">Reject</button>
+                        </form>
+
+                        @* Delete *@
+                        <form asp-action="Delete" method="post" class="d-inline" onsubmit="return confirm('Delete this claim?');">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </div>
+                }
             </td>
         </tr>
 }

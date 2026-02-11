@@ -14,18 +14,19 @@ C:\Darwin_github\ArchitectAssignment\eClaims.Infrastructure\obj\Debug\net9.0\eCl
 C:\Darwin_github\ArchitectAssignment\eClaims.Infrastructure\obj\Debug\net9.0\refint\eClaims.Infrastructure.dll
 C:\Darwin_github\ArchitectAssignment\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.pdb
 C:\Darwin_github\ArchitectAssignment\eClaims.Infrastructure\obj\Debug\net9.0\ref\eClaims.Infrastructure.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.deps.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Core.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.csproj.AssemblyReference.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.AssemblyInfoInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.AssemblyInfo.cs
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims..E90722C0.Up2Date
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\refint\eClaims.Infrastructure.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\ref\eClaims.Infrastructure.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.deps.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Infrastructure.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\bin\Debug\net9.0\eClaims.Core.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.csproj.AssemblyReference.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.AssemblyInfoInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.AssemblyInfo.cs
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.sourcelink.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims..E90722C0.Up2Date
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\refint\eClaims.Infrastructure.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\eClaims.Infrastructure.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Infrastructure\obj\Debug\net9.0\ref\eClaims.Infrastructure.dll

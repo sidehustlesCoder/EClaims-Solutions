@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lFdXxPQjkpE=",
+  "dgSpecHash": "vJM7cSMNdQA=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
+  "projectFilePath": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.Core\\eClaims.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaideep2043\\.nuget\\packages\\mongodb.bson\\3.5.2\\mongodb.bson.3.5.2.nupkg.sha512",
     "C:\\Users\\jaideep2043\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

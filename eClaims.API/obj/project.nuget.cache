@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmSiWGzP3J8=",
+  "dgSpecHash": "MtDnFaCR7cM=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Learning AI Path\\Eclaims Solutions\\EClaims-Solutions\\eClaims.API\\eClaims.API.csproj",
+  "projectFilePath": "C:\\Personal\\EclaimSolutions\\EClaims-Solutions\\eClaims.API\\eClaims.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaideep2043\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\jaideep2043\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",

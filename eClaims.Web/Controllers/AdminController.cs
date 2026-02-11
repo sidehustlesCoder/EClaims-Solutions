@@ -7,7 +7,7 @@ using eClaims.Web.Models;
 
 namespace eClaims.Web.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly IRepository<Claim> _claimRepository;

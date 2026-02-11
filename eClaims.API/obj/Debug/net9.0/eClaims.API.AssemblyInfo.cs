@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eClaims.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0cb5436c6952ea6fa4c65ccf0d17eb44115757e")]
 [assembly: System.Reflection.AssemblyProductAttribute("eClaims.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eClaims.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

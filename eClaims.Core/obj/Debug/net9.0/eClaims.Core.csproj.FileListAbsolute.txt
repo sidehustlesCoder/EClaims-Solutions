@@ -11,15 +11,16 @@ C:\Darwin_github\ArchitectAssignment\eClaims.Core\obj\Debug\net9.0\eClaims.Core.
 C:\Darwin_github\ArchitectAssignment\eClaims.Core\obj\Debug\net9.0\refint\eClaims.Core.dll
 C:\Darwin_github\ArchitectAssignment\eClaims.Core\obj\Debug\net9.0\eClaims.Core.pdb
 C:\Darwin_github\ArchitectAssignment\eClaims.Core\obj\Debug\net9.0\ref\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.deps.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.csproj.AssemblyReference.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.AssemblyInfoInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.AssemblyInfo.cs
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.csproj.CoreCompileInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\refint\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\ref\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.deps.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\bin\Debug\net9.0\eClaims.Core.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.csproj.AssemblyReference.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.AssemblyInfoInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.AssemblyInfo.cs
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.csproj.CoreCompileInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.sourcelink.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\refint\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\eClaims.Core.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.Core\obj\Debug\net9.0\ref\eClaims.Core.dll

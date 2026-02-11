@@ -75,7 +75,7 @@ namespace eClaims.Web.Controllers
                 {
                     Email = model.Email,
                     PasswordHash = model.Password, // In production, hash this!
-                    Role = model.Role,
+                    Role = "Customer", // Force role to Customer to prevent role escalation via registration
                     Profile = new UserProfile { FirstName = "New", LastName = "User" }
                 };
 

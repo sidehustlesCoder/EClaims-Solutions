@@ -45,49 +45,50 @@ C:\Darwin_github\ArchitectAssignment\eClaims.API\obj\Debug\net9.0\refint\eClaims
 C:\Darwin_github\ArchitectAssignment\eClaims.API\obj\Debug\net9.0\eClaims.API.pdb
 C:\Darwin_github\ArchitectAssignment\eClaims.API\obj\Debug\net9.0\eClaims.API.genruntimeconfig.cache
 C:\Darwin_github\ArchitectAssignment\eClaims.API\obj\Debug\net9.0\ref\eClaims.API.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\appsettings.Development.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\appsettings.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.staticwebassets.endpoints.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.exe
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.deps.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.runtimeconfig.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\DnsClient.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\MongoDB.Bson.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\MongoDB.Driver.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\SharpCompress.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Snappier.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\ZstdSharp.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Core.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Infrastructure.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Core.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Infrastructure.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.csproj.AssemblyReference.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.AssemblyInfoInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.AssemblyInfo.cs
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.csproj.CoreCompileInputs.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\scopedcss\bundle\eClaims.API.styles.css
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.build.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.development.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.eClaims.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.eClaims.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.build.eClaims.API.props
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.eClaims.API.props
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.eClaims.API.props
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims..79551695.Up2Date
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\refint\eClaims.API.dll
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.pdb
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.genruntimeconfig.cache
-C:\Personal\Learning AI Path\Eclaims Solutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\ref\eClaims.API.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\appsettings.Development.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\appsettings.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.staticwebassets.endpoints.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.exe
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.deps.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.runtimeconfig.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.API.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\DnsClient.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\SharpCompress.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\Snappier.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\ZstdSharp.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Core.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Infrastructure.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Core.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\bin\Debug\net9.0\eClaims.Infrastructure.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.csproj.AssemblyReference.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.AssemblyInfoInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.AssemblyInfo.cs
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.csproj.CoreCompileInputs.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.sourcelink.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\scopedcss\bundle\eClaims.API.styles.css
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.development.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.eClaims.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.eClaims.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.build.eClaims.API.props
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.eClaims.API.props
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.eClaims.API.props
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims..79551695.Up2Date
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\refint\eClaims.API.dll
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.pdb
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\eClaims.API.genruntimeconfig.cache
+C:\Personal\EclaimSolutions\EClaims-Solutions\eClaims.API\obj\Debug\net9.0\ref\eClaims.API.dll

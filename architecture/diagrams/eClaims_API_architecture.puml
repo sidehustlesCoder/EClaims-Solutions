@@ -1,0 +1,33 @@
+@startuml
+title eClaims.API - Architecture
+
+actor Client
+participant "eClaims.API\n(ASP.NET Core)" as API
+participant "MongoDB / InMemory" as DB
+participant "IRepository&lt;T&gt;\n(Repository / InMemoryRepository)" as Repo
+participant "Configuration\n(MongoDbSettings)" as Config
+participant "OpenAPI / Swagger" as Swagger
+participant "Logging / DI" as DI
+
+Client -> API: HTTP requests (GET/POST/PUT/DELETE)
+activate API
+API -> Swagger: Expose OpenAPI endpoints
+API -> DI: Resolve IRepository&lt;Claim&gt; and settings
+API -> Repo: Call GetAllAsync / GetByIdAsync / AddAsync / UpdateAsync / DeleteAsync
+activate Repo
+Repo -> DB: Read/Write collections (Claims)
+activate DB
+DB --> Repo: Data
+deactivate DB
+Repo --> API: Entities / Acknowledgement
+deactivate Repo
+API --> Client: HTTP responses (200/201/204)
+deactivate API
+
+note left of API
+  - Controllers: ClaimsController, SeedController
+  - Registered services: IRepository -> InMemoryRepository (or Repository when using MongoDB)
+  - Settings loaded from MongoDbSettings section
+end note
+
+@enduml

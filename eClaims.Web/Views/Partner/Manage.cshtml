@@ -49,10 +49,29 @@
 
                         <div class="mb-3">
                             <label class="form-label fw-bold">Current Status</label>
+                            @{
+                                var selPending = wo.Status == "PENDING" ? "selected=\"selected\"" : string.Empty;
+                                var selInProgress = wo.Status == "IN_PROGRESS" ? "selected=\"selected\"" : string.Empty;
+                                var selCompleted = wo.Status == "COMPLETED" ? "selected=\"selected\"" : string.Empty;
+                            }
                             <select name="status" class="form-select">
-                                <!option value="PENDING" @(wo.Status == "PENDING" ? "selected" : "")>Pending Estimate</!option>
-                                <!option value="IN_PROGRESS" @(wo.Status == "IN_PROGRESS" ? "selected" : "")>In Progress</!option>
-                                <!option value="COMPLETED" @(wo.Status == "COMPLETED" ? "selected" : "")>Completed</!option>
+                                @if (wo.Status == "PENDING") {
+                                    <option value="PENDING" selected>Pending Estimate</option>
+                                } else {
+                                    <option value="PENDING">Pending Estimate</option>
+                                }
+
+                                @if (wo.Status == "IN_PROGRESS") {
+                                    <option value="IN_PROGRESS" selected>In Progress</option>
+                                } else {
+                                    <option value="IN_PROGRESS">In Progress</option>
+                                }
+
+                                @if (wo.Status == "COMPLETED") {
+                                    <option value="COMPLETED" selected>Completed</option>
+                                } else {
+                                    <option value="COMPLETED">Completed</option>
+                                }
                             </select>
                         </div>
 
